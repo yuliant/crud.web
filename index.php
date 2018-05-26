@@ -19,7 +19,7 @@
 			<div>
 				<label>Password:</label>
 				<input type="password" name="password" id="password" />
-			</div>			
+			</div>
 			<div>
 				<input type="submit" value="Login" class="tombol">
 			</div>
@@ -28,11 +28,11 @@
 </body>
 
 <center><a href="LoginUser.php">Log in sebagai USER</a></center>
- 
+
 <script type="text/javascript">
 	function validasi() {
 		var username = document.getElementById("username").value;
-		var password = document.getElementById("password").value;		
+		var password = document.getElementById("password").value;
 		if (username != "" && password!="") {
 			return true;
 		}else{
@@ -40,6 +40,6 @@
 			return false;
 		}
 	}
- 
+
 </script>
 </html>
